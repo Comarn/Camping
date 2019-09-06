@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S",
+    "I "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "I": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "camping:itemmarshmallow"
+  }
+}

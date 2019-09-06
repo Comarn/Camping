@@ -1,0 +1,11 @@
+{
+    "block.camping.blocktent": "Tent",
+    "block.camping.blockbonfire": "Bonfire",
+
+    "item.camping.itemmarshmallow": "Marshmallow",
+    "item.camping.itemtoastedmarshmallow": "Toasted Marshmallow",
+    "item.camping.itemtent": "Tent",
+    "item.camping.itemfirestarter": "Fire Starter",
+
+    "itemGroup.camping": "Camping"
+}

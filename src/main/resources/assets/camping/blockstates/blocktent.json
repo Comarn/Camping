@@ -1,0 +1,53 @@
+{
+  "multipart": [
+    {   "when": { "facing": "north|south" },
+      "apply": { "model": "camping:block/tent_sides", "uvlock": true }
+    },
+    {   "when": { "facing": "east|west" },
+      "apply": { "model": "camping:block/tent_sides", "y": 90, "uvlock": true }
+    },
+
+    {   "when": { "top": "true" },
+      "apply": { "model": "camping:block/tent_top", "uvlock": true }
+    },
+
+    {   "when": { "front": "false", "facing": "north" },
+      "apply": { "model": "camping:block/tent_back", "uvlock": true }
+    },
+    {   "when": { "front": "false", "facing": "east" },
+      "apply": { "model": "camping:block/tent_back", "y": 90, "uvlock": true }
+    },
+    {   "when": { "front": "false", "facing": "south" },
+      "apply": { "model": "camping:block/tent_back", "y": 180, "uvlock": true }
+    },
+    {   "when": { "front": "false", "facing": "west" },
+      "apply": { "model": "camping:block/tent_back", "y": 270, "uvlock": true }
+    },
+
+    {   "when": { "front": "true", "facing": "north", "top": "true" },
+      "apply": { "model": "camping:block/tent_front_top", "uvlock": true }
+    },
+    {   "when": { "front": "true", "facing": "east", "top": "true" },
+      "apply": { "model": "camping:block/tent_front_top", "y": 90, "uvlock": true }
+    },
+    {   "when": { "front": "true", "facing": "south", "top": "true" },
+      "apply": { "model": "camping:block/tent_front_top", "y": 180, "uvlock": true }
+    },
+    {   "when": { "front": "true", "facing": "west", "top": "true" },
+      "apply": { "model": "camping:block/tent_front_top", "y": 270, "uvlock": true }
+    },
+
+    {   "when": { "front": "true", "facing": "north", "top": "false" },
+      "apply": { "model": "camping:block/tent_front_bottom", "uvlock": true }
+    },
+    {   "when": { "front": "true", "facing": "east", "top": "false" },
+      "apply": { "model": "camping:block/tent_front_bottom", "y": 90, "uvlock": true }
+    },
+    {   "when": { "front": "true", "facing": "south", "top": "false" },
+      "apply": { "model": "camping:block/tent_front_bottom", "y": 180, "uvlock": true }
+    },
+    {   "when": { "front": "true", "facing": "west", "top": "false" },
+      "apply": { "model": "camping:block/tent_front_bottom", "y": 270, "uvlock": true }
+    }
+  ]
+}

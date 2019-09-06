@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:chests/wooden",
+    "#forge:fences/wooden",
+    "#forge:fence_gates/wooden",
+    "#forge:rods/wooden",
+    "#forge:tools/wooden",
+    "#minecraft:boats",
+    "#minecraft:logs",
+    "#minecraft:planks",
+    "#minecraft:signs",
+    "#minecraft:wooden_doors",
+    "#minecraft:wooden_buttons",
+    "#minecraft:wooden_pressure_plates",
+    "#minecraft:wooden_slabs",
+    "#minecraft:wooden_stairs",
+    "#minecraft:wooden_trapdoors",
+    "minecraft:bowl",
+    "minecraft:ladder",
+    "minecraft:composter",
+    "minecraft:barrel"
+  ]
+}

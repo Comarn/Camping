@@ -1,0 +1,15 @@
+{
+  "elements": [
+    {
+      "from": [ 0, 0, 0 ],
+      "to": [ 16, 16, 16 ],
+      "faces": {
+        "north":  { "texture": "#all" }
+      }
+    }
+  ],
+  "textures": {
+    "particle": "camping:block/canvas",
+    "all": "camping:block/canvas"
+  }
+}
